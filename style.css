@@ -1,0 +1,33 @@
+.containers{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1f2937;
+    color: white;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+    list-style-type: none;
+    
+}
+
+a{
+    color: white;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
