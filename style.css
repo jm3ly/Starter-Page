@@ -118,3 +118,26 @@ main h2{
     width: 160px;
     height: 160px;
 }
+
+/*quote part*/
+
+.quote{
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7em 13em;
+}
+
+.quote em{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+}
+
+.quote p{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    color: #1f2937;
+}
