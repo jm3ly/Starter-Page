@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*heading*/
+
 header{
     background-color: #1f2937;
     padding: 1em 14em;
@@ -169,4 +171,15 @@ main h2{
 strong{
     color: white;
     font-size: 24px;
+}
+
+/*footing*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
+    color: white;
+    background-color: #1f2937;
 }
